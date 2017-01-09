@@ -1,6 +1,8 @@
 # Pannenpedia
 Makes random pannenkoek screencaps from mariowiki articles
 
+![screenshot](https://pbs.twimg.com/media/C1vDMa9WQAAnKun.jpg)
+
 ## Contributing
 
     npm install
