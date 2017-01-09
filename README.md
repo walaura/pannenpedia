@@ -1,2 +1,2 @@
 # Textbook
-Makes random textbook covers
+Makes random pannenkoek screencaps from wikipedia articles
