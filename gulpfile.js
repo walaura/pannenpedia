@@ -82,7 +82,7 @@ gulp.task('tweet',function(done){
 gulp.task('webshot',function(done){
 	var webshot = require('webshot');
 	var options = {
-		renderDelay: 2000,
+		renderDelay: 20000,
 		siteType: 'file',
 		phantomPath: require('phantomjs2').path,
 		phantomConfig: {
