@@ -42,7 +42,7 @@ var makePost = function() {
 	var type = 0;
 
 	/*art*/
-	var rq = $.get('https://en.wikipedia.org/wiki/Special:Random');
+	var rq = $.get('http://www.mariowiki.com/Special:Random');
 
 	rq.done(function(data){
 		var $data = $(data);
@@ -76,10 +76,10 @@ var makePost = function() {
 			$post.append($('<infobox></infobox>').append($table));
 		}
 		else if(type === 2 ){
-			$post.append($('<img class="cover">').attr('src','http:'+imgSrc));
+			$post.append($('<img class="cover">').attr('src','http://www.mariowiki.com/'+imgSrc));
 		}
 		else if(type === 3 ){
-			$post.append($('<cover></cover>').css('background-image','url(http:'+imgSrc+')'));
+			$post.append($('<cover></cover>').css('background-image','url(http://www.mariowiki.com/'+imgSrc+')'));
 			$post.addClass('fs');
 		}
 		else {
