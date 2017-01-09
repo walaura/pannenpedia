@@ -91,7 +91,7 @@ gulp.task('webshot',function(done){
 		},
 		userAgent: 'Mozilla/4.0 (iPad; CPU OS 4_0_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/4.1 Mobile/9A405 Safari/7534.48.3',
 		errorIfJSException: true,
-		quality: 25,
+		quality: 15+Math.random()*84,
 		screenSize: {
 			width: 800,
 			height: 500
