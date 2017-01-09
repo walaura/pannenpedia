@@ -55,7 +55,7 @@ var makePost = function() {
 		var dataSize = random([1,2,3]);
 		var $infobox = $data.find('.infobox tbody');
 
-		if(imgSrc && imgSrc.length > 0) type = random([0,0,2,2,3]);
+		if(imgSrc && imgSrc.length > 0) type = random([0,0,2,0,2,3]);
 		if(type === 0 && $infobox.length > 0) type = 1;
 		if(type === 0) type = 4;
 
