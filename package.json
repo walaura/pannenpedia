@@ -1,6 +1,6 @@
 {
   "name": "Pannenpedia",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Makes random pannenkoek screencaps from wikipedia data",
   "main": "index.js",
   "scripts": {
