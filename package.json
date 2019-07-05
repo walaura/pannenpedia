@@ -6,7 +6,9 @@
   "scripts": {
     "start": "echo 👌",
     "gulp": "./node_modules/.bin/gulp",
-    "shitpost": "gulp shitpost"
+    "shitpost": "gulp shitpost",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "license": "GPL-3.0",
   "repository": {
@@ -27,6 +29,8 @@
     "raw-loader": "^0.5.1",
     "twit": "^2.2.5",
     "webpack-stream": "^3.2.0",
-    "webshot": "github:walaura/node-webshot"
-  }
+    "webshot": "github:walaura/node-webshot",
+    "snyk": "^1.192.0"
+  },
+  "snyk": true
 }
