@@ -6,7 +6,9 @@
   "scripts": {
     "start": "echo 👌",
     "gulp": "./node_modules/.bin/gulp",
-    "shitpost": "gulp shitpost"
+    "shitpost": "gulp shitpost",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "license": "GPL-3.0",
   "repository": {
@@ -21,12 +23,14 @@
     "color-scheme": "0.0.5",
     "fs-extra": "^1.0.0",
     "gulp": "github:gulpjs/gulp#4.0",
-    "gulp-uglify": "^1.5.4",
+    "gulp-uglify": "^3.0.0",
     "gulp-webshot": "^0.2.3",
     "phantomjs2": "^2.2.0",
     "raw-loader": "^0.5.1",
     "twit": "^2.2.5",
-    "webpack-stream": "^3.2.0",
-    "webshot": "github:walaura/node-webshot"
-  }
+    "webpack-stream": "^7.0.0",
+    "webshot": "github:walaura/node-webshot",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
