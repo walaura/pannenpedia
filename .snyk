@@ -1,0 +1,20 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - phantomjs2 > request > hawk:
+        patched: '2022-10-05T20:04:14.823Z'
+  'npm:http-signature:20150122':
+    - phantomjs2 > request > http-signature:
+        patched: '2022-10-05T20:04:14.823Z'
+  'npm:mime:20170907':
+    - phantomjs2 > request > form-data > mime:
+        patched: '2022-10-05T20:04:14.823Z'
+  'npm:request:20160119':
+    - phantomjs2 > request:
+        patched: '2022-10-05T20:04:14.823Z'
+  'npm:tunnel-agent:20170305':
+    - phantomjs2 > request > tunnel-agent:
+        patched: '2022-10-05T20:04:14.823Z'
